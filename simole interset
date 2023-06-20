@@ -1,0 +1,16 @@
+package poorna1;
+import static org.junit.Assert.assertTrue;
+import java.util.*;
+public class poorna5{
+    public static void main(String[] args){
+        Scanner aa = new Scanner(System.in);
+        
+        float P = aa.nextFloat();
+        float R = aa.nextFloat();
+        float T = aa.nextFloat();
+        float SI = (P*T*R)/100;
+        
+        System.out.println("SI = "+SI);
+        
+    }
+}
