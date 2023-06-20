@@ -1,0 +1,24 @@
+package poorna1;
+import static org.junit.Assert.assertTrue;
+import java.util.*;
+public class poorna4{
+    public static void main(String[] args){
+        Scanner aa = new Scanner(System.in);
+        System.out.println("enter the age");
+        int age = aa.nextInt();
+        int one;
+        if(age>=18)
+        {
+            System.out.println("welcome to vote");
+            
+        }
+        else
+        {
+            one = (18 - age);
+            System.out.println("not to vote:"+one+"years");
+            assertTrue(age==one);
+        }
+       
+        
+    }
+}
